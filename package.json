@@ -1,5 +1,5 @@
 {
-  "name": "@sumcoding/svgtojs",
+  "name": "svg-to-js-cli",
   "version": "1.0.0",
   "description": "A CLI for converting svgs into javascript objects",
   "main": "lib/cli.js",
