@@ -1,4 +1,4 @@
-# vue-generate
+# svg-to-js-cli
 A simple cli for converting svgs into a javascript object
 
 ## Install
