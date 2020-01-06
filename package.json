@@ -1,0 +1,37 @@
+{
+  "name": "svgtojs",
+  "version": "1.0.0",
+  "description": "A CLI for converting svgs into javascript objects",
+  "main": "lib/cli.js",
+  "bin": {
+    "svgtojs": "bin/cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "svg",
+    "component",
+    "generate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sumcoding/svg-to-js-cli"
+  },
+  "author": "@sumcoding",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "esm": "^3.2.25",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0",
+    "meow": "^5.0.0",
+    "ncp": "^2.0.0",
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {}
+}
