@@ -1,10 +1,11 @@
 export const icons = {
   {% for icon in icons %}{{icon.name}}: {
-    height: {{ icon.height }},
-    width: {{ icon.width }},
-    viewBox: '{{ icon.viewBox }}',
+    height: {%if icon.height %}{{ icon.height }}{% else %}null{% endif %},
+    width: {%if icon.width %}{{ icon.width }}{% else %}null{% endif %},
+    viewBox: {%if icon.height %}'{{ icon.viewBox }}'{% else %}null{% endif %},
     path: '{{ icon.path | safe }}'
-  },{% endfor %}
+  },
+  {% endfor %}
 }
 
 export default icons;
