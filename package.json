@@ -1,6 +1,6 @@
 {
   "name": "svg-to-js-cli",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A CLI for converting svgs into javascript objects",
   "main": "lib/cli.js",
   "bin": {
