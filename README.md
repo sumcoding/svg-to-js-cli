@@ -1,3 +1,5 @@
+![Tests](https://github.com/sumcoding/svg-to-js-cli/workflows/Tests/badge.svg)
+
 # svg-to-js-cli
 A simple cli for converting svgs into a javascript object
 
