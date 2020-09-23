@@ -1,0 +1,6 @@
+/* eslint-disabled */
+{% for icon in icons %}import {{icon.name}} from './{{icon.name}}';
+{% endfor %}
+export {
+{% for icon in icons %}  {{icon.name}},
+{% endfor %}}
