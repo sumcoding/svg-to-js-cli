@@ -13,7 +13,14 @@ or
 
 ## Usage
 
-```$ svgtojs [source] [destination]```
+```$ svgtojs [sourceDirectory || sourceFile] [destinationDirectory]```
+
+If `destinationDirectory` is not set it will default to the source directory
+
+## Options
+
+`--module` or `-m`, separate modules for each icon
+
 
 Creates a javascript object: 
 ```
