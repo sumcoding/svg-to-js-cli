@@ -1,0 +1,8 @@
+export const {{name}} = {
+  height: {%if height %}{{ height }}{% else %}null{% endif %},
+  width: {%if width %}{{ width }}{% else %}null{% endif %},
+  viewBox: {%if height %}'{{ viewBox }}'{% else %}null{% endif %},
+  path: '{{ path | safe }}'
+}
+
+export default {{name}};
