@@ -34,7 +34,7 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "esm": "^3.2.25",
-    "fs-extra": "^9.0.0",
+    "fs-extra": "^10.0.0",
     "inquirer": "^7.1.0",
     "meow": "^6.1.0",
     "ncp": "^2.0.0",
